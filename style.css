@@ -1,0 +1,110 @@
+body{
+    background-color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #761e1e;
+    font-size: 150%;
+    margin: 0px;
+}
+#header{
+    text-align: center;
+    margin-bottom: 7vh;
+}
+#header > h1{
+    margin: 0px;
+}
+#header > p{
+    margin: 0px;
+}
+#blocks{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 60vh;
+}
+.block{
+    width: 18vw;
+    height: 50vh;
+    background: rgba(118, 30, 30, 0.545);
+    color: burlywood;
+    font-size: 310%;
+    text-align: center;
+    border-radius: 8%;
+}
+.min_b{
+    position: absolute;
+    top: -1vh;
+    border-radius: 40%;
+    margin: 10px;
+    margin-top: 3vh;
+    height: 7vh;
+    width: 6vw;
+    background: rgba(165, 42, 42, 0.401);
+}
+#res{
+    right: 9vw;
+}
+#res > p{
+    margin-top: 1vh;
+    margin-left: 1.2vw;
+}
+#sett{
+    right: 1vw;
+}
+#sett > p{
+    margin-top: 1vh;
+    margin-left: 0.3vw;
+}
+#sett_block{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 128, 128, 0.478);
+    display: none;
+}
+#sett_pole{
+    position: absolute;
+    top: 25%;
+    right: 25%;
+    width: 50%;
+    height: 50%;
+    background: rgba(108, 27, 27, 0.653);
+    display: none;
+    color: burlywood;
+    text-align: center;
+    font-size: 170%;
+    border-radius: 4%;
+}
+#sett_pole > p{
+    margin-top: 0px;
+}
+#sett_list{
+    width: 40%;
+}
+#sett_pole > div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+.sett_button{
+    width: 40%;
+    height: 70%;
+    background: burlywood;
+    color: rgba(108, 27, 27, 0.653);
+    border-radius: 5%;
+}
+#loose{
+    position: absolute;
+    top: 30%;
+    right: 33%;
+    width: 30%;
+    height: 33%;
+    background: rgb(108, 27, 27);
+    display: none;
+    color: burlywood;
+    text-align: center;
+    font-size: 200%;
+    border-radius: 4%;
+}

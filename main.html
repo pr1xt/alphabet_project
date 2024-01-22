@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <h1>Quess the symbol</h1>
+        <p>Language game</p>
+    </div>
+    <div class="min_b" id="sett" onclick="sett()">
+        <p>settings</p>
+    </div>
+    <div class="min_b" id="res" onclick="res()">
+        <p>reset</p>
+    </div>
+    <div id="sett_block" onclick="sett_close()">
+    </div>
+    <div id="sett_pole">
+        <p>settings</p>
+        <div>
+            <div class="sett_button" id="sett_list" onclick="change_lst()">
+                <p>List of symbols:</p>
+                <p id="lst_use">alphabet</p>
+            </div>
+            <div class="sett_button"  id="sett_attemps" onclick="change_att()">
+                <p>Attemps:</p>
+                <p id="attemps">5</p>
+            </div>
+        </div>
+    </div>
+    <div id="loose">
+        <p>You Loose!</p>
+    </div>
+    <div id="blocks">
+        <div id="block1" class="block"> <p id="T1"></p></div>
+        <div id="block2" class="block"> <p id="T2"></p></div>
+        <div id="block3" class="block"> <p id="T3"></p></div>
+        <div id="block4" class="block"> <p id="T4"></p></div>
+        <div id="block5" class="block"> <p id="T5"></p></div>
+    </div>
+    <p>Everytime right symbol is showed in console</p>
+    <script src="scrpts.js"></script>
+</body>
+</html>
